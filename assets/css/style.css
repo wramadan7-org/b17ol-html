@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Metropolis;
+}
+
+.container {
+	text-align: center;
+}
+
+.container .judul {
+	display: inline-block;
+	padding-top: 120px;
+	padding-bottom: 10px;
+}
+
+.container .plase {
+
+}
+
+.container .judul .belanja {
+	float: right;
+	color: #DB3022;
+}
+
+.container .double-btn button{
+	width: 100px;
+	height: 40px;
+	font-size: 79px 14px;
+	font-style: normal;
+	filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0, ,05));
+	border-width: 0;
+	border: 1px solid #9B9B9B;
+}
+
+.container .double-btn .customer {
+	background-color: #DB3022;
+	border-radius: 4px 0p 0px 4px;
+	color: white;
+}
+
+.container .double-btn .seller {
+	border-radius: 0px 4px 4px 0px;
+	color: gray;
+	background-color: transparent;
+}
+
+.container .double-btn {
+	margin-bottom: 20px;
+}
+
+.container .input input{
+	width: 330px;
+	height: 30px;
+}
+
+.container .forgot-pass {
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 500px;
+}
+
+.container .primary{
+	background-color: #DB3022;
+	border-radius: 25px;
+	width: 330px;
+	height: 48px;
+	border-width: none;
+	border: 1px solid #9B9B9B;
+
+}
+
+.container button {
+	cursor: pointer;
+}
+
+a {
+	color: #DB3022;
+}
+
+
+/* Home */
+.navbar {
+	flex: 2;
+	/*background-color: gray;*/
+	padding-left: 90px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar .brand {
+	/*background-color: red;*/
+}
+
+.navbar .brand .img-home {
+	width: 35px;
+	height: 40px;
+	display: inline-block;
+}
+
+.navbar .brand .belanja {
+	display: inline-block;
+	color: #DB3022
+}
+
+.navbar .brand .search {
+	margin-left: 50px;
+	width: 440px;
+	height: 30px;
+	border-radius: 30px;
+	border-width: none;
+}
+
+.navbar .brand .img-kranjang {
+	margin-left: 90px;
+}
+
+.navbar .brand .login-regis {
+	display: inline-block;
+	margin-left: 40px;
+	display: inline-block;
+}
+
+.navbar .brand .login-regis .nav-login {
+	background-color: #DB3022;
+}
+
